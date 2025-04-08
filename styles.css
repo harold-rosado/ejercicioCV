@@ -1,0 +1,47 @@
+:root {
+  --soft-black: #29282d;
+  --deep-black: #1d1c21;
+  --gray: #b8b8b8;
+  --warning: #ffc107;
+
+  --font-title: 'Bebas Neue';
+  --font-text: 'Inter';
+}
+
+body{
+  background-color: var(--soft-black);
+  font-family: var(--font-text);
+}
+
+h1,h2,h3{
+  font-family: var(--font-title);
+}
+
+p{
+  color: var(--gray);
+}
+
+section{
+  background-color: var(--deep-black);
+}
+
+.section-profile .social-links a{
+  background-color: var(--soft-black);
+  width: 48px;
+  height: 48px;
+  color: white;
+}
+
+.section-profile .social-links a:hover{
+  background-color: var(--warning);
+  color: var(--soft-black);
+}
+
+.section-skills .skill {
+  background-color: var(--soft-black);
+  width: 64px;
+}
+
+.section-services img{
+  width: 48px;
+}
